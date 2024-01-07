@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .container
+        {
+            border: 2px solid black;
+            background-color: black;
+            width: 1511px;
+            height: 90px;
+
+        }
+        .main_top
+        {
+            font-family: 'Amiko', sans-serif;
+            color: white;
+            font-weight: 30;
+            font-size: 20px;
+            
+        }
+        #login
+        {
+            float:right;
+            width: 6%;
+        }
+        #sign_up
+        {
+            float:right;
+            width: 8%;
+        }
+        #about_us
+        {
+            float:right;
+            width: 10%;
+        }
+        #home
+        {
+            float:right;
+            width: 7%;
+        }
+        #vs_logo
+        {
+            height: 87px;
+        }
+        #mainbg
+        {
+            height: 726px;
+            width: 1511;
+            margin: -2px;
+            
+        }
+        #maintext
+        {
+            font-family:'Inter', sans-serif;
+            color: white;
+            font-size: 55px;
+            position: absolute;
+            top: 35%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        ::placeholder
+        {
+            color: rgb(167, 160, 160);
+            font-family: 'Poppins', sans-serif;
+            padding: 10px;
+            padding-top: 10px;
+            font-size: 20px;
+        }
+        input[type=text]
+        {
+            border-radius: 15px;
+            position: absolute;
+            top: 77%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 78px;
+            width: 800px;
+            border-color: rgba(249, 219, 65, 1);
+            font-family: 'Poppins', sans-serif;
+            color: rgb(30, 28, 28);
+            font-size: 22px;
+        }
+
+          .vl {
+            border-left: 1.5px solid rgba(234, 205, 52, 1);
+            height: 48px;
+            position:absolute;
+            top:74%;
+            left:72%;
+            
+          }
+          .searched{
+            position:absolute;
+            top:74%;
+            left:72.5%;
+            height: 43px;
+            width: 48px;
+          }
+          #fontdis
+          {
+            position: absolute;
+            top: 83%;
+            left: 31%;
+            color: white;
+            font-weight: 7px;
+            size: 25px;
+          }
+
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amiko&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="main_top">
+            <p id="login">LOGIN</p> 
+            <p id="sign_up">SIGN UP</p>
+            <p id="about_us">ABOUT US</p>
+            <p id="home">HOME</p>
+       </div>
+    <img src="vs_logo.jpg" class="container" style="width:25%; height:87px" alt="Vying Slots"> 
+    </div>
+    <div class="mainbgcls">
+    <img src="mainbg.jpg" id="mainbg" alt="Loading">   
+    <p id="maintext">YOUR PROP-UP</p>
+    <label for="search">
+        <input type="text" placeholder="Search for any upcoming exams, contests and more....">
+    </label>
+        <div class="vl"></div>
+        <button><img src="search.jpg" width="48px" height="48px" class="searched" alt="loading"></button>
+        <p id="fontdis">Discover academic competitions, scholarships, Olympiads, coding contest at one place...</p>
+    </div>           
+</body>
+</html>
